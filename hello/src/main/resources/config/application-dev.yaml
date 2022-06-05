@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: hello
+swagger:
+  enable: true
+  title: Spring Boot集成Swagger2接口测试
+  user-email: 1169804597@qq.com
+  application-name: ${spring.application.name}
+  application-version: 1.0
+  application-description: springfox swagger 3.0整合Demo
+  try-host: http://localhost:${server.port}
